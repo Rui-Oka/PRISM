@@ -4,7 +4,7 @@ $cMenuOpen: $cBlack;
 .mobile-menu {
     position: fixed;
     right: 0;
-    top: 80px;
+    top: 50px;
     width: 100%;
     
     & .logo {
@@ -23,6 +23,7 @@ $cMenuOpen: $cBlack;
         font-size: 18px;
         color: $cWhite;
         mix-blend-mode: exclusion;
+
 
     
         // & > span {
@@ -140,6 +141,10 @@ $cMenuOpen: $cBlack;
                     transform: translateY(-11px) rotate(-135deg);
                 }
             }
+        }
+
+        .mt-n {
+            margin-top: 0 !important;
         }
     }
 }

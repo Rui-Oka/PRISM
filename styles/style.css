@@ -654,7 +654,7 @@
 .mobile-menu {
   position: fixed;
   right: 0;
-  top: 80px;
+  top: 50px;
   width: 100%;
 }
 .mobile-menu .logo {
@@ -778,6 +778,9 @@
 .menu-open .mobile-menu__btn > span:nth-child(3) {
   transition-delay: 140ms;
   transform: translateY(-11px) rotate(-135deg);
+}
+.menu-open .mobile-menu .mt-n {
+  margin-top: 0 !important;
 }
 
 /******************************************************************
@@ -1352,98 +1355,6 @@ main {
   /******************************************************************
 
   Stylesheet: 480px以上(スマホの横向き)のモニタで適用
-
-  ******************************************************************/
-}
-@media (min-width: 960px) {
-  /******************************************************************
-
-  Stylesheet: 960px以上のモニタで適用
-
-  ******************************************************************/
-  .font-sm, .sub-title, .mobileSub-title {
-    font-size: 16px;
-  }
-  .font-md, .access__title {
-    font-size: 19px;
-  }
-  .font-lr, .system__title,
-.recruit__title {
-    font-size: 23px;
-  }
-  .font-lg, .main-title, .mobile-title {
-    font-size: 36px;
-  }
-  .mb-lg, .concept, .access__btn {
-    margin-bottom: 150px !important;
-  }
-  .pb-lg, .hero {
-    padding-bottom: 150px !important;
-  }
-  .popular__item {
-    flex-basis: 25%;
-  }
-  .popular__img {
-    height: 335px;
-  }
-  .travel__img {
-    height: 400px;
-  }
-  .travel__description {
-    margin-bottom: 40px;
-  }
-  .travel__title::before {
-    display: block;
-  }
-  .footer__li {
-    justify-content: flex-start;
-  }
-  .header__nav {
-    display: block;
-  }
-  .mobile-menu__btn {
-    display: none;
-  }
-  .swiper-slide {
-    box-shadow: 0 8px 40px -10px rgba(0, 0, 0, 0.8);
-  }
-}
-@media (min-width: 1280px) {
-  /******************************************************************
-
-  Stylesheet: 1280px以上のモニタで適用
-
-  ******************************************************************/
-  .travel__inner {
-    padding: 50px 150px;
-  }
-  .popular__item {
-    flex-basis: 23%;
-  }
-  .side {
-    display: block;
-  }
-}
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-  /******************************************************************
-
-  Stylesheet: Retinaディスプレイで適用
-
-  ******************************************************************/
-  /* 
-
-  EXAMPLE 
-  .icon {
-  	background: url(images/test@2x.png) no-repeat;
-  	background-size: 24px 24px;
-  }
-
-  */
-}
-@media print {
-  /******************************************************************
-
-  Stylesheet: プリンタのみに適用
 
   ******************************************************************/
 }/*# sourceMappingURL=style.css.map */
